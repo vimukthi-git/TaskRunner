@@ -45,13 +45,12 @@ public class TestMain {
 	}
 
 	/**
-	 * creates 110 tasks each taking 2 seconds to complete.
+	 * creates the given number of task sets with each of the tasks 
+	 * in them taking 'secsToComplete' seconds to complete.
 	 * @return
 	 */
 	private static TaskMap createTaskMap(int numberOfTaskSets) {
 		TaskMap tasks = new TaskMap();
-//		int taskCount = 0;
-//		final int secsToComplete = 2;
 		for (int i = numberOfTaskSets; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				final int order = i;
