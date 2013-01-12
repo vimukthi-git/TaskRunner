@@ -5,3 +5,5 @@ It uses java executor framework to run each of the tasks in task sets concurrent
 keeping the order of execution of the task sets as defined by the Task interface.
 
 See com.vimukthi.taskrunner.tests.TestMain for an example.
+
+A blog post - http://vimukthi.com/?p=38
