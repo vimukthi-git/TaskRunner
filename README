@@ -1,4 +1,7 @@
 TaskRunner is a utility to run a set of tasks while respecting the ordering
 of tasks such that tasks with the same order executes concurrently.
 
+It uses java executor framework to run each of the tasks in task sets concurrently while 
+keeping the order of execution of the task sets as defined by the Task interface.
+
 See com.vimukthi.taskrunner.tests.TestMain for an example.
